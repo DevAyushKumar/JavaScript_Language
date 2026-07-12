@@ -1,0 +1,1 @@
+This is a repository regarding the javascript theory, codes, practice questions and interview questions.
