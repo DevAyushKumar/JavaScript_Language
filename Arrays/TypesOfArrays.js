@@ -9,4 +9,5 @@ function createarray(...args){
     return Array.of(...args);
 }
 
-//
+//Array.from
+const newArray = Array.from("Hello");
