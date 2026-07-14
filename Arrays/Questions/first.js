@@ -1,13 +1,15 @@
 const arr = [12,34,67,34,89,90];
-let max1 = arr[0];
-let min1 = arr[0];
-for(let i=0; i<arr.length; i++){
-    if(arr[i] > max1){
-        max1 = arr[i];
-    } 
-    if(arr[i] < min1){
-        min1 = arr[i];
-    }
+function large(arr){
+    return arr.reduce((acc, ele) => {
+        return Math.max(acc,ele);
+    })
 }
 
-console.log(max1,min1);
+function small(arr){
+    return arr.reduce((acc, ele) => {
+        return Math.min(acc,ele);
+    })
+}
+
+console.log(large(arr));
+console.log(small(arr));
