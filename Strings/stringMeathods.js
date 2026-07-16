@@ -56,3 +56,5 @@
 //replace
 "Hello world".replace("w", "W");
 "Hello world".replace(/o/g, "O");
+"2026-04-6".replace(/-/g,"/");
+"hello world".replace(/\w+/g, w => w.charAt(0).toUpperCase() + w.slice(1));
