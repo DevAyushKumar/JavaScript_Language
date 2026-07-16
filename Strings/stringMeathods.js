@@ -19,3 +19,40 @@
 "file.name.txt".lastIndexOf(".txt");
 "Hello World".lastIndexOf("o");
 "Hello world".lastIndexOf("o", 6);
+
+//includes
+"Hello world".includes("Hello");
+"Hello world".includes("world");
+"Hello world".includes("o", 5);
+
+//startsWith
+"https://example.com".startsWith("https://");
+"image.png".startsWith("image");
+"Hello".startsWith("ello",1);
+
+//endsWith
+"image.png".endsWith(".png");
+"image.png".endsWith(".jpeg");
+"photo.png".endsWith("photo",5);
+
+//slice
+"Hello world".slice(0,5);
+"Hello world".slice(6);
+"Hello world".slice(-5);
+"Hello world".slice(-5, -1);
+"Hello world".slice(6,2);
+
+//substring
+"Hello world".substring(0,5);
+"Hello world".substring(-3,5);
+"Hello world".substring(5, 0);
+
+//split
+"a,b,c".split(",");
+"Hello world".split(" ");
+"1abc123".split(/\d/);
+"no-seperator".split("x");
+
+//replace
+"Hello world".replace("w", "W");
+"Hello world".replace(/o/g, "O");
