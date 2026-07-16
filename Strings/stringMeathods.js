@@ -10,3 +10,12 @@
 "Hello".at(10);
 
 //indexOf
+"Hello".indexOf("o");
+"Hello".indexOf("o",5);
+"Hello".indexOf("xyz");
+"Hello".indexOf("");
+
+//LastIndexOf
+"file.name.txt".lastIndexOf(".txt");
+"Hello World".lastIndexOf("o");
+"Hello world".lastIndexOf("o", 6);
