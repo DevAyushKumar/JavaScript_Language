@@ -2,7 +2,7 @@
 //push
 let arr = ["user1", "user2"];
 let queue = arr.push("user3");
-console.log(arr);
+console.log(arr);//["user1", "user2","user3"]
 
 //pop
 let Remove = arr.pop();
