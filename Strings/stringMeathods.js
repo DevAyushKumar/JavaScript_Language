@@ -58,3 +58,44 @@
 "Hello world".replace(/o/g, "O");
 "2026-04-6".replace(/-/g,"/");
 "hello world".replace(/\w+/g, w => w.charAt(0).toUpperCase() + w.slice(1));
+
+//replaceAll()
+"a-b-c".replaceAll("-","_");
+"aaa".replaceAll("a","b");
+"a-b-c".replaceAll(/-/g,"_");
+
+//trim()
+"  Hello world  ".trim();
+"\n\tHello world\n\t".trim();
+
+//trimStart() / trimEnd()
+"  Hello  ".trimStart();
+"  Hello  ".trimEnd();
+
+//toUpperCase() / toLowerCase()
+"Hello".toUpperCase();
+"Hello".toLowerCase();
+
+//concat()
+"Hello".concat(" ", "World");
+"Hello".concat(" ", "world","!");
+
+//repeat()
+"ab".repeat(3);
+"-".repeat(20);
+"x".repeat(0);
+
+//padStart()
+"5".padStart(2,"0")
+"7".padStart(3,"0")
+"99".padStart(4,"0")
+
+//padEnd()
+"5".padEnd(2,"0");
+"abc".padEnd(6," ");
+
+//localeCompare()
+"a".localeCompare("b");
+"b".localeCompare("a");
+"a".localeCompare("a");
+
